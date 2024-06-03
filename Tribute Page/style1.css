@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(36, 33, 33);
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: orange;
+    color:black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+header .header-content {
+    padding: 10px;
+  
+}
+
+.bio {
+    background: black;
+    padding: 20px;
+    margin: 20px 0;
+   
+    color: white;
+}
+
+.bio h2{
+    text-align: center;
+    color: orangered;
+}
+
+.bio img {
+    float: left;
+    margin-right: 20px;
+    
+    width: 350px;
+   
+}
+
+.bio p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.achievements {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.achievements h3 {
+    margin-top: 0;
+}
+
+.achievements ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
